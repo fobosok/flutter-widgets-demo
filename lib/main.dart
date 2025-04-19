@@ -23,6 +23,7 @@ import 'package:my_widgets_app/pages/snackbar_page.dart';
 import 'package:my_widgets_app/pages/stack_page.dart';
 import 'package:my_widgets_app/pages/switch_page.dart';
 import 'package:my_widgets_app/pages/text_page.dart';
+import 'package:my_widgets_app/pages/tooltip_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -67,6 +68,7 @@ class HomePage extends StatelessWidget {
     {'title': 'AlertDialog', 'page': AlertDialogPage()},
     {'title': 'BottomSheet', 'page': BottomSheetPage()},
     {'title': 'SnackBar', 'page': SnackbarPage()},
+    {'title': 'Tooltip', 'page': TooltipPage()},
     // сюда позже добавим все остальные виджеты из списка
   ];
 
