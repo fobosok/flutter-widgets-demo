@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_widgets_app/pages/alert_dialog_page.dart';
 import 'package:my_widgets_app/pages/align_page.dart';
+import 'package:my_widgets_app/pages/bottom_sheet_page.dart';
 import 'package:my_widgets_app/pages/center_page.dart';
 import 'package:my_widgets_app/pages/checkbox_page.dart';
 import 'package:my_widgets_app/pages/column_page.dart';
@@ -63,6 +64,7 @@ class HomePage extends StatelessWidget {
     {'title': 'Radio', 'page': RadioPage()},
     {'title': 'ProgressIndicator', 'page': ProgressIndicatorPage()},
     {'title': 'AlertDialog', 'page': AlertDialogPage()},
+    {'title': 'BottomSheet', 'page': BottomSheetPage()},
     // сюда позже добавим все остальные виджеты из списка
   ];
 
