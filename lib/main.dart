@@ -13,6 +13,7 @@ import 'package:my_widgets_app/pages/form_page.dart';
 import 'package:my_widgets_app/pages/image_page.dart';
 import 'package:my_widgets_app/pages/inkwell_page.dart';
 import 'package:my_widgets_app/pages/listview_page.dart';
+import 'package:my_widgets_app/pages/navigator_page.dart';
 import 'package:my_widgets_app/pages/padding_page.dart';
 import 'package:my_widgets_app/pages/progress_indicator_page.dart';
 import 'package:my_widgets_app/pages/radio_page.dart';
@@ -69,6 +70,7 @@ class HomePage extends StatelessWidget {
     {'title': 'BottomSheet', 'page': BottomSheetPage()},
     {'title': 'SnackBar', 'page': SnackbarPage()},
     {'title': 'Tooltip', 'page': TooltipPage()},
+    {'title': 'Navigator', 'page': NavigatorPage()},
     // сюда позже добавим все остальные виджеты из списка
   ];
 
