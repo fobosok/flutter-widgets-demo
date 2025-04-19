@@ -19,6 +19,7 @@ import 'package:my_widgets_app/pages/radio_page.dart';
 import 'package:my_widgets_app/pages/row_page.dart';
 import 'package:my_widgets_app/pages/sizedbox_page.dart';
 import 'package:my_widgets_app/pages/slider_page.dart';
+import 'package:my_widgets_app/pages/snackbar_page.dart';
 import 'package:my_widgets_app/pages/stack_page.dart';
 import 'package:my_widgets_app/pages/switch_page.dart';
 import 'package:my_widgets_app/pages/text_page.dart';
@@ -65,6 +66,7 @@ class HomePage extends StatelessWidget {
     {'title': 'ProgressIndicator', 'page': ProgressIndicatorPage()},
     {'title': 'AlertDialog', 'page': AlertDialogPage()},
     {'title': 'BottomSheet', 'page': BottomSheetPage()},
+    {'title': 'SnackBar', 'page': SnackbarPage()},
     // сюда позже добавим все остальные виджеты из списка
   ];
 
