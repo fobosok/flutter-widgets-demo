@@ -6,6 +6,7 @@ import 'package:my_widgets_app/pages/center_page.dart';
 import 'package:my_widgets_app/pages/checkbox_page.dart';
 import 'package:my_widgets_app/pages/column_page.dart';
 import 'package:my_widgets_app/pages/container_page.dart';
+import 'package:my_widgets_app/pages/drawer_page.dart';
 import 'package:my_widgets_app/pages/dropdown_button_page.dart';
 import 'package:my_widgets_app/pages/elevated_button_page.dart';
 import 'package:my_widgets_app/pages/expanded_page.dart';
@@ -71,6 +72,7 @@ class HomePage extends StatelessWidget {
     {'title': 'SnackBar', 'page': SnackbarPage()},
     {'title': 'Tooltip', 'page': TooltipPage()},
     {'title': 'Navigator', 'page': NavigatorPage()},
+    {'title': 'Drawer', 'page': DrawerPage()},
     // сюда позже добавим все остальные виджеты из списка
   ];
 
